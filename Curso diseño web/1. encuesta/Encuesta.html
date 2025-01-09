@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Example Page</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <h1 id="title">Encuesta de series</h1>
+    <p id="description">Pequeña encuesta para completar acerca de tus preferencias de series</p>
+    <form id="survey-form">
+        <label for="name" id="name-label">Ingrese su nombre:</label>
+        <input id="name" type="text" placeholder="Ingrese su nombre aquí(obligatorio)" required>
+        <br>
+        <label for="email" id="email-label">Ingrese su email:</label>
+        <input id="email" type="email" placeholder="Ingrese su email aquí(obligatorio)" required>
+        <br>
+        <label for="number" id="number-label">¿Cuantas horas al dia mira series? </label>
+        <input id="number" type="number" min="0" max="100" placeholder="Ingrese cantidad de horas..">
+        <br>
+        <label for="dropdown" id="select-label">¿Qué plataforma de streaming utilizas mas? </label>
+        <select id="dropdown" required>
+            <option value="" disabled selected>Seleccione</option>
+            <option value="Netflix">Netflix</option>
+            <option value="HBO">HBO</option>
+            <option value="Disney">Disney+</option>
+            <option value="Prime">Prime Video</option>
+            <option value="Otra">Otra</option>
+        </select>
+        <br>
+        <label id="button-label">Seleccione el genero favorito</label>
+        <br>
+        <br>
+        <input id="comedia" type="radio" name="genero" value="comedia">
+        <label for="comedia">Comedia</label>
+        <br>
+        <input id="rom-com" type="radio" name="genero" value="rom-com">
+        <label for="rom-com">Rom-com</label>
+        <br>
+        <input id="accion" type="radio" name="genero" value="accion">
+        <label for="accion">Accion</label>
+        <br>
+        <input id="terror" type="radio" name="genero" value="terror">
+        <label for="terror">Terror</label>
+        <br>
+        <input id="ciencia" type="radio" name="genero" value="ciencia">
+        <label for="ciencia">Ciencia Ficcion</label>
+        <br>
+        <label id="checkbox-label">Presione cual de estas series has visto o te gustaria ver</label>
+        <br>
+        <br>
+        <input id="stranger-things" type="checkbox" name="intereses" value="stranger-things">
+        <label for="stranger-things">Stranger things</label>
+        <br>
+        <input id="euphoria" type="checkbox" name="intereses" value="euphoria">
+        <label for="euphoria">Euphoria</label>
+        <br>
+        <input id="breaking-bad" type="checkbox" name="intereses" value="breaking-bad">
+        <label for="breaking-bad">Breaking bad</label>
+        <br>
+        <input id="game-of-thrones" type="checkbox" name="intereses" value="game-of-thrones">
+        <label for="game-of-thrones">Game of thrones</label>
+        <br>
+        <input id="the-crown" type="checkbox" name="intereses" value="the-crown">
+        <label for="the-crown">The crown</label>
+        <br>
+        <label  id="check-label" for="textarea">¿Cual es la ultima serie que viste?</label>
+        <br>
+        <textarea id="textarea" name="descripcion" placeholder="Escribe aquí..."></textarea>
+        <br>
+        <button type="submit" id="submit">Cargar información</button>
+    </form>
+</body>
+</html>
