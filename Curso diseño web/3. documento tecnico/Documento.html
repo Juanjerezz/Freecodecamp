@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="stylesheet" href="styles.css">
+<title>Documentación de Python</title>
+  </head>
+<main id="main-doc">
+    <section class="main-section" id="Introduccion_a_Py">
+        <header>Introduccion a Py</header>
+        <p>
+            Python es un lenguaje de programación de alto nivel, interpretado y versátil, diseñado para abordar una amplia variedad de necesidades y aplicaciones. Fue creado por Guido van Rossum y lanzado por primera vez en 1991. Python ha ganado una enorme popularidad debido a su enfoque en la simplicidad, lo que lo convierte en una excelente opción tanto para principiantes que están dando sus primeros pasos en programación, como para profesionales que desarrollan proyectos avanzados. Su sintaxis clara y legible facilita la escritura y el mantenimiento del código, promoviendo un aprendizaje rápido y un desarrollo ágil de software.
+            
+            Python es utilizado en una amplia gama de áreas, desde desarrollo web, análisis de datos, inteligencia artificial y aprendizaje automático, hasta automatización de tareas, desarrollo de juegos y computación científica. Esto lo ha convertido en una de las herramientas más valiosas en la actualidad para resolver problemas complejos de manera eficiente.</p>
+    </section>
+    <section class="main-section" id="Caracteristicas_de_Py">
+        <header>Caracteristicas de Py</header>
+        <p><ul>
+            <li>Sintaxis simple y legible.</li>
+            <li>Soporte para programación orientada a objetos y funcional.</li>
+            <li>Gran biblioteca estándar y soporte de terceros.</li>
+            <li>Multiplataforma (Linux, Windows, macOS).</li>
+            <li>Ideal para scripts rápidos y proyectos complejos.</li>
+            <li>Compatible con otras tecnologías.</li>
+            <li>Gran comunidad y recursos educativos.</li>
+            <li>Fácil de aprender y enseñar.</li>
+          </ul></p>
+    </section>
+    <section class="main-section" id="Estructura_de_Py">
+        <header>Estructura de Py</header>
+        <p><strong>Listas:</strong> Colección ordenada y mutable
+<br>
+<code>
+frutas = ["manzana", "plátano", "cereza"]
+frutas.append("naranja")
+#"naranja"
+</code></p>
+<p><strong>Diccionarios:</strong> Estructura clave-valor
+<code>
+persona = {"nombre": "Juan", "edad": 25}
+print(persona["nombre"])
+# "Juan"</code></p>
+<p><strong>Cadenas:</strong> Manipulación de texto
+<code>
+saludo = "Hola, Python"
+print(saludo.upper())  
+# "HOLA, PYTHON"</code></p>
+<p><strong>Conjuntos:</strong> colecciones desordenadas de elementos únicos.
+<code>
+numeros = {1, 2, 3, 4}
+otros_numeros = {3, 4, 5, 6}
+print(numeros.union(otros_numeros))
+# Salida: {1, 2, 3, 4, 5, 6}
+</code></p>
+<p> <strong>Tuplas:</strong> colecciones ordenadas e inmutables
+<code>
+coordenadas = (10, 20)
+print(coordenadas[0])
+# Salida: 10</code>
+</p>
+    </section>
+    <section class="main-section" id="Control_de_Flujo">
+        <header>Control de Flujo</header>
+        <p>Explica cómo manejar la lógica y las decisiones en Python mediante estructuras como if, for, y while.</p>
+
+<p><strong>Condicionales (if):</strong>
+ <code> 
+edad = 18 
+if edad >= 18:
+    print("Eres mayor de edad")<br>
+    else:
+      print("Eres menor de edad")
+    </code></p>
+<p><strong>Bucles (for):</strong>
+
+<code>
+frutas = ["manzana", "plátano", "cereza"]
+for fruta in frutas:
+    print(fruta)
+</code></p>
+
+<p><strong>Bucles (while):</strong>
+
+<code>
+contador = 0
+while contador < 5:
+    print(f"Contador: {contador}")
+    contador += 1
+</p></code>
+    </section>
+    <section class="main-section" id="Conclusion">
+        <header>Conclusion</header>
+        <p>Python es un lenguaje de programación versátil y accesible que ha transformado el desarrollo de software gracias a su diseño enfocado en la simplicidad y la claridad. Su sintaxis intuitiva lo hace ideal tanto para principiantes como para expertos, permitiendo abordar una amplia gama de proyectos, desde desarrollo web hasta inteligencia artificial y análisis de datos.
+
+            Con una comunidad global activa, una biblioteca extensa de herramientas y una evolución constante, Python se mantiene como un estándar en la industria tecnológica. Su equilibrio entre facilidad de uso y potencia lo convierte en una herramienta indispensable para aprender, crear e innovar en el mundo de la programación.</p>
+    </section>
+</main>
+<nav id="navbar">
+  <header>
+    <p id="header-text">Python</p>
+    <a href="#Introduccion_a_Py" class="nav-link">Introduccion a Py</a>
+    <a href="#Caracteristicas_de_Py" class="nav-link">Caracteristicas de Py</a>
+    <a href="#Estructura_de_Py" class="nav-link">Estructura de Py</a>
+    <a href="#Control_de_Flujo" class="nav-link">Control de Flujo</a>
+    <a href="#Conclusion" class="nav-link">Conclusion</a>
+  </header>
+</nav>
+</html>
