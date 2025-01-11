@@ -1,0 +1,140 @@
+#nav-bar {
+    position: fixed; 
+    top: 0; 
+    width: 100%; 
+    background-color: white; 
+    color: white; 
+    display: flex; 
+    justify-content:space-around;
+    align-items: center;
+     
+    padding: 10px;
+    z-index: 1000;  }
+
+h1,h2 {
+    display:flex;
+    justify-content: center;
+}
+h1 {
+    font-size: 40px
+}
+img {
+    width: 50px;
+    display: flex;
+}
+img.mapa {
+    width: 100%; 
+    max-width: 600px; 
+    height: auto; 
+    display: block; 
+    margin: 0 auto; 
+}
+
+.bebida-item {
+    display: flex; 
+    flex-direction: column; 
+    align-items: center; 
+    text-align: center; 
+    margin-bottom: 30px; 
+    padding-left: 50px;
+    padding-right: 50px;
+}
+
+img.glinda, img.elfaba {
+    width: 300px; 
+    margin: 20px 0; 
+}
+p1 {
+    color: black;
+    font-weight: bold;
+}
+section {
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.presentacion {
+    color:white;
+}
+.text-center {
+    text-align: center;
+    padding-bottom: 50px;
+}
+.video {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+p2 {
+    color: white;
+    display: flex;
+    justify-content: center;
+    font-weight: bold;
+    text-align: center;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 45px;
+    margin: 140px;
+}
+.paginas {
+    background-color: white;
+
+}
+.bebidas, .ubicacion {
+    color: black;
+    justify-self: center;
+}
+
+nav a {
+    text-decoration: none;
+    color: black;
+    font-family: sans-serif;
+    font-weight: bold;
+}
+  /* Ajuste para el cuerpo para evitar superposición del contenido con la barra */
+  body {
+    margin: 0; /* Elimina márgenes predeterminados */
+    padding-top: 50px; /* Crea espacio para el nav-bar */
+    background-color: #1e3932;
+  }
+  @media (max-width: 600px) {
+    #nav-bar {
+      flex-direction: column; /* Cambia a una disposición vertical */
+      align-items: center;   /* Centra los enlaces */
+      padding: 20px;         /* Más espacio para los enlaces */
+    }
+  
+    .nav-link {
+      font-size: 18px; /* Incrementa el tamaño de la fuente para facilitar la lectura */
+      margin: 10px 0;  /* Agrega espacio entre enlaces */
+    }
+  }
+
+.texto {
+    display:flex ;
+    justify-content: center;
+    font-weight: bold;
+    font-size: 30px;
+    font-family: sans-serif;
+}
+input {
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+    border-radius: 5px;
+    padding: 10px; 
+    width: 300px; 
+    max-width: 300px; 
+    height: 20px;
+    font-size: 20px;
+    margin: 0 auto; 
+}
+#submit {
+    padding-top: 20px;
+    padding-bottom: 20px;
+    background-color: #555555;
+    display: block; 
+    margin: 0 auto; 
+    font-weight: bold;
+    width: 300px; 
+    text-align: center; /* Centra el texto dentro del botón */
+    font-size: 16px; /* Aumenta el tamaño del texto si es necesario */
+    border-radius: 5px; /* Agrega bordes redondeados */
+}

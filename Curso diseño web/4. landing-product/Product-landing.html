@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="styles.css">
+  <title>Product landing</title>
+</head>
+<body>
+  <header id="header">
+    <nav id="nav-bar">
+      <!-- Cambiamos de <nav> a <a> y agregamos los href correctos -->
+        <img id="header-img" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSAAZj06vJO42Qa70XcC9qHSQC3Wr_B9E4xdQ&s" alt="Logo">
+        <p1>Starbucks Coffe</p1>
+      <a class="nav-link" href="#presentacion">Presentacion</a>
+      <a class="nav-link" href="#bebidas">Bebidas Nuevas</a>
+      <a class="nav-link" href="#ubicacion">Donde ubicarnos</a>
+    </nav>
+  </header>
+  <!-- Se agregan id en los elementos correspondientes -->
+  <section id="presentacion">
+    <h1>Presentacion</h1>
+    <p2 class="text-center">Starbucks desafía la gravedad con nuevas bebidas, artículos y más, inspirados en WICKED de Universal Pictures</p2>
+    <div class="video">
+    <iframe
+  id="video" 
+  width="560" 
+  height="315" 
+  src="https://www.youtube.com/embed/lufVkRB3QFc" 
+  frameborder="0" 
+  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
+  allowfullscreen>
+</iframe>
+</div>
+  </section>
+  <div class="paginas">
+    <section id="bebidas">
+      <h1>Bebidas Nuevas</h1>
+      <div class="bebidas">
+        <!-- Bebida Glinda -->
+        <div class="bebida-item">
+        <h2>Poción Rosa de Glinda</h2>
+          <img 
+            class="glinda" 
+            src="https://historias.starbucks.com/_next/image/?url=https%3A%2F%2Fstories.starbucks.com%2Fuploads%2Fsites%2F21%2F2024%2F10%2FGlindas-Pink-Potion-1.png&w=640&q=75" 
+            alt="Bebida Glinda">
+          <p>
+            Esta fantabulosa creación contiene la bebida Mango Dragonfruit Starbucks Refreshers® batido a mano con cremosa leche de coco, hielo y una bola de pitaya liofilizada. Coronada con sedosa espuma fría de fresa, la bebida culmina con un toque mágico de Oz (una espiral de jarabe de fresa).
+          </p>
+          <p>
+            “Cuando ideamos esta bebida, nos inspiramos en el alegre carácter de Glinda y, por supuesto, en su emblemática relación con todo lo rosa”, dijo Natalia Vásquez, desarrolladora de bebidas de Starbucks. “Esta colorida bebida está coronada con una espuma fría infusionada con puré de fresa para añadir aún más estallidos de color rosa para conseguir un resultado tan radiante como la misma Glinda”.
+          </p>
+        </div>
+  
+        <!-- Bebida Elphaba -->
+        <div class="bebida-item">
+        <h2>Cold Brew Verde de Elfaba </h2>
+          <img 
+            class="elfaba" 
+            src="https://historias.starbucks.com/_next/image/?url=https%3A%2F%2Fstories.starbucks.com%2Fuploads%2Fsites%2F21%2F2024%2F10%2FCold-Brew-Verde-de-Elfaba.png&w=640&q=75" 
+            alt="Bebida Elphaba">
+          <p>
+            Esta fascinante creación combina Starbucks Cold Brew, elaborado con una mezcla de granos cultivados específicamente para infusiones en frío prolongadas, y preparado a mano en pequeños lotes cada día, lo que garantiza un sabor extraordinariamente suave. El Cold Brew se endulza con jarabe de menta y se corona con sedosa espuma fría de matcha y un toque mágico de Oz (polvo de matcha).
+          </p>
+          <p>
+            “Nos inspiramos en la energía atrevida y la deslumbrante piel verde de Elphaba para crear esta receta”, dijo Rosalyn Batingan, desarrolladora de bebidas de Starbucks. “Nuestro exclusivo cold brew adquiere un inesperado toque de menta, rematado con una espuma fría de matcha para darle un toque del famoso verde de Elphaba, y una espolvoreada de matcha en polvo para terminar”.
+          </p>
+        </div>
+      </div>
+    </section>
+  <div class="ubicacion">
+  <section id="ubicacion">
+    <h1>Donde ubicarnos</h1>
+    <img
+    class="mapa"
+    src="mapa.png" 
+    alt="mapa">
+  </section>
+  </div>
+  <form id="form" action="https://www.freecodecamp.com/email-submit">
+    <div class="texto">
+    <p>Ingrese su mail para estar al tanto de las futuras nuevas bebidas: </p>
+    </div>
+    <input id="email" placeholder="Enter your email" type="email" name="email"></textarea>
+    <br>
+    <input id="submit" type="submit">
+    <br>
+  </form>
+
+</div>
+
+</body>
+</html>
